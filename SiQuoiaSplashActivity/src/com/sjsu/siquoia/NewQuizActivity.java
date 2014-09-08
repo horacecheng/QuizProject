@@ -35,7 +35,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
-
+/**
+ * Description: THis activity allow the user to create a new quiz based on subject, topic, or subtopic.
+ */
 public class NewQuizActivity extends Activity {
 	
 	//Declare variables

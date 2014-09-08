@@ -31,7 +31,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
+/**
+ * Description: This activity displays a list of questions the use can select to answer
+ */
 public class QuizActivity extends Activity {
 
 	//declare variable

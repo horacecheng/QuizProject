@@ -33,7 +33,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
+/**
+ *Users can create a user account to play the game.
+ */
 public class CreateUserAccountActivity extends Activity{
 	//declare variables
 	private ProgressDialog progressBar;
