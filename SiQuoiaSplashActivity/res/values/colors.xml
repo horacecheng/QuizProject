@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "lightBlue"> #0066AA </color>
+    <color name = "purple"> #AA22AA </color>
+    <color name = "white"> #FFFFFF </color>
+    <color name = "transparentWhite"> #80FFFFFF </color>
+</resources>

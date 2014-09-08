@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name= "app_name"> SiQuoia </string>
+    <string name= "action_settings"> Settings </string>
+    <string name = "username"> Username </string>
+    <string name = "password"> Password </string>
+    <string name = "email"> Email </string>
+    <string name = "login"> Login </string>
+    <string name = "continueString"> Continue </string>
+    <string name = "newGame"> New Game </string>
+    <string name = "submitQuestion"> Submit Question </string>
+    <string name = "leaderboard"> LeaderBoard </string>
+    <string name = "logout"> Logout </string>
+    <string name = "quit"> Quit </string>
+    <string name = "create"> Create </string>
+    <string name = "createUser"> Create New Account </string>
+    <string name = "enterUserName"> Enter User Name: </string>
+    <string name = "enterPass"> Enter Password: </string>
+    <string name = "reEnterPass"> Re-enter Password: </string>
+    <string name = "enterEmail"> Enter Email: </string>
+    <string name = "action_logout"> Logout </string>
+    <string name = "action_redeem"> Redeem Code </string>
+    <string name = "splashImage"> Splash Screen Image </string>
+    <string name = "questionImage"> Question Image </string>
+    <string name = "selectSubject">Select \nSubject:</string>
+    <string name = "selectTopic">Select \nTopic:</string>
+    <string name = "selectSubTopic">Select \nSub-Topic:</string>
+    <string name = "createQuiz">Create Quiz</string>
+    <string name = "newGameDescription"> Please select Subject, Topic, Subtopic, or any combination of the three create desired quiz.</string>
+    <string name = "currentScore">Current Score: 0/20</string>
+    <string name = "currentPoints">Current Points:</string>
+    <string name = "question">Question Text</string>
+    <string name = "describeVideo">What is shown in Video?</string>
+    <string name = "describeImage">What is shown in Image?</string>    
+    <string name = "questionNumber">X: </string>    
+    <string name = "rank">Rank</string>
+    <string name = "leaderboardMessage">Top Correctly Answered Questions:</string>
+    <string name = "userProfile">User Profile</string>
+    <string name = "siquoiaPoints">SiQuoia Points:</string>
+    <string name = "packetsBought">Packets Bought:</string>
+    <string name = "memorabiliaBought">Memorabilia Bought:</string>    
+    <string name = "totalPointsSpent">Total Points Spent:</string>  
+    <string name = "totalPoints">Total Points Earned:</string>
+    
+    <string name = "quizResults">Quiz Results</string>
+    <string name = "numberCorrect">Number Correct:</string>    
+    <string name = "percentCorrect">Percent Correct:</string>
+    <string name = "submitQuestionText">Enter question information:</string>
+    
+    <string name = "answerOne">First Answer:</string>
+    <string name = "answerTwo">Second Answer:</string>
+    <string name = "answerThree">Third Answer:</string>
+    <string name = "answerFour">Fourth Answer:</string>
+    <string name = "correctAnswer">Current Answer Number:</string>
+    <string name = "submit">Submit Question</string>
+    <string name = "subject">Subject</string>
+    <string name = "topic">Topic</string>
+    <string name = "subtopic">Subtopic</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/passwordOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterPass1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="28sp" 
+        android:maxLength="32"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/passwordTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterPass2"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="28sp"  
+        android:maxLength="32"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordOne"
+        android:layout_below="@+id/enterEmail"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="28sp"  
+        android:maxLength="32"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/passwordTwo"
+        android:layout_below="@+id/passwordTwo"
+        android:layout_marginTop="28dp"
+        android:text="@string/create" 
+        android:textSize="28sp" 
+        android:background="@color/transparentWhite"/>
+
+    <TextView
+        android:id="@+id/enterPass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordOne"
+        android:layout_below="@+id/passwordOne"
+        android:layout_marginTop="47dp"
+        android:text="@string/reEnterPass"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/enterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailField"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="263dp"
+        android:text="@string/enterEmail"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/enterPass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordOne"
+        android:layout_below="@+id/emailField"
+        android:layout_marginTop="54dp"
+        android:text="@string/enterPass"
+        android:textSize="28sp" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+[
+    {
+        "email": "testuser@gmail.com",
+        "currentQuiz": "",
+        "currentAns": "",
+        "siquoiaPoints": 1500,        
+		"packetType":"normal",
+        "packetsBought": 75,
+        "memorabilia": 9,
+        "totalPointsSpent": 1825
+    }
+]

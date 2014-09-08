@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home_background" >
+
+    <EditText
+        android:id="@+id/usernameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passwordField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:ems="10" 
+        android:hint="@string/username"
+        android:textSize = "22sp"
+        android:inputType="textPersonName"
+        android:background="@drawable/rounded_edittext"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginButton"
+        android:layout_alignLeft="@+id/usernameField"
+        android:layout_alignRight="@+id/usernameField"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textSize="22sp" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/passwordField"
+        android:layout_marginBottom="173dp"
+        android:text="@string/login"
+        android:background="@color/transparentWhite" />
+
+    <TextView
+        android:id="@+id/createUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:ems="10"
+        android:text="@string/createUser"
+        android:textSize="22sp" 
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
